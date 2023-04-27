@@ -57,3 +57,32 @@
 * Mixed Modeling
 
 ## Multimodal Models
+Generally, these encoder models could be separated into two categories, concatenated encoders and cross-aligned encoders [7]
+### Concatenated encoders
+* VisualBERT [134]
+* [135] proposed SimVLM
+### Cross-aligned Encoders
+* LXMERT [139] 
+* CLIP [37] 
+### To-text decoders
+* Jointly-trained decoders
+* Frozen deocders [143]
+### To-image decoders
+GAN-based methods and diffusion-based methods
+* StackGAN [148]
+*  AttnGAN [149]
+*  StyleCLIP [150]
+
+* DALL-E-2 [5]
+
+## Prompt Learning[211] 
+
+## Model Compression
+*  DistilBERT [214]
+
+## TRUSTWORTHY & RESPONSIBLE AIGC
+* stable diffusion [13]
+### Security
+### Privacy
+* Membership inference
+* Data Extraction
